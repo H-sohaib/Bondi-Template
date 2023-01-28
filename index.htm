@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- normalize file -->
+  <link rel="stylesheet" href="css/Normalise.css" />
+  <!-- font Awessome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- primary css file -->
+  <link rel="stylesheet" href="css/Bondi.css" />
+  <!-- link for google font roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- strat header -->
+  <header>
+    <nav class="container d-flex" style="height: 66px;">
+      <h1 class="m-0"><img src="imgs/logo.png" alt=""></h1>
+      <i id="i" class="fa-solid fa-bars"></i>
+      <div>
+        <ul class="list-unstyled m-0">
+          <li class=""><a class="text-decoration-none" href="#home">Home</a></li>
+          <li class=""><a class="text-decoration-none" href="#services">Services</a></li>
+          <li class=""><a class="text-decoration-none" href="#portfolio">Portfolio</a></li>
+          <li class=""><a class="text-decoration-none" href="#about">About</a></li>
+          <li class=""><a class="text-decoration-none" href="#contact">Contact</a></li>
+          <i id="searsh" class="fa-solid fa-magnifying-glass ps-2 pe-2"></i>
+          <button id="navButton" class="btn btn-danger ms-2"><a href="#login">Login</a></button>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <h1>Taste the Creativity</h1>
+      <p>We make awesome graphic and web design</p>
+      <button class="btn btn-danger"> Get Started</button>
+    </section>
+  </header>
+  <!-- end header -->
+  <!-- special heading -->
+  <div class="spec-heading text-center">
+    <img src="imgs/title.png" alt="">
+    <h1 class="fw-normal m-0 mb-2">We are Good at</h1>
+    <p class="fs-5 fw-Semibold">SOME OF THESE STUFF UNDER</p>
+  </div>
+  <!-- end heading -->
+  <!-- start services -->
+  <section id="services" class="container">
+    <div class="row  text-center">
+      <div class="srv col-md-6 col-lg-4 mt-2 mb-3 position-relative" data-id="1">
+        <i class="fa-solid fa-pencil fa-4x"></i>
+        <h1 class="fw-normal">GRAPHIC DESIGN</h1>
+        <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at
+          tellus.</p>
+      </div>
+      <div class="srv col-md-6 col-lg-4 mt-2 mb-3 position-relative" data-id="2">
+        <i class="fa-solid fa-tv fa-4x"></i>
+        <h1 class="fw-normal">WEB DESIGN</h1>
+        <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at
+          tellus.</p>
+      </div>
+      <div class="srv col-md-6 col-lg-4 mt-2 mb-3 position-relative" data-id="3">
+        <i class="fa-solid fa-plug fa-4x"></i>
+        <h1 class="fw-normal">APP DESIGN</h1>
+        <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at
+          tellus.</p>
+      </div>
+    </div>
+  </section>
+  <!-- end services -->
+  <!-- strat filter  -->
+  <!-- end heading -->
+  <div id="portfolio" class="forbg">
+    <section id="filter" class="container">
+      <div class="spec-heading text-center">
+        <img src="imgs/title.png" alt="">
+        <h1 class="fw-normal m-0 mb-2">We Make This</h1>
+        <p class="fs-5 fw-Semibold">PREPARE TO BE AMAZED</p>
+      </div>
+      <ul id="buttons" class="list-unstyled d-flex justify-content-center flex-wrap">
+        <li class="d-inline activeF">ALL</li>
+        <li class="d-inline">Design</li>
+        <li class="d-inline">Code</li>
+        <li class="d-inline">Photography</li>
+        <li class="d-inline">Apps</li>
+      </ul>
+      <div class="row pt-4">
+        <div class="box col-md-6 col-lg-3" data-type="Photography">
+          <img src="imgs/work-01.jpg" alt="">
+          <div class="caption">
+            <h4 class="text-white">Awesome work</h4>
+            <p>/Design</p>
+          </div>
+        </div>
+        <div class="box col-md-6 col-lg-3" data-type="Apps">
+          <img src="imgs/work-02.jpg" alt="">
+          <div class="caption">
+            <h4 class="text-white">Awesome work</h4>
+            <p>/Design</p>
+          </div>
+        </div>
+        <div class="box col-md-6 col-lg-3" data-type="Design">
+          <img src="imgs/work-03.jpg" alt="">
+          <div class="caption">
+            <h4 class="text-white">Awesome work</h4>
+            <p>/Design</p>
+          </div>
+        </div>
+        <div class="box col-md-6 col-lg-3" data-type="Design">
+          <img src="imgs/work-04.jpg" alt="">
+          <div class="caption">
+            <h4 class="text-white">Awesome work</h4>
+            <p>/Design</p>
+          </div>
+        </div>
+        <div class="box col-md-6 col-lg-3" data-type="Code">
+          <img src="imgs/work-05.jpg" alt="">
+          <div class="caption">
+            <h4 class="text-white">Awesome work</h4>
+            <p>/Design</p>
+          </div>
+        </div>
+        <div class="box col-md-6 col-lg-3" data-type="Code">
+          <img src="imgs/work-06.jpg" alt="">
+          <div class="caption">
+            <h4 class="text-white">Awesome work</h4>
+            <p>/Design</p>
+          </div>
+        </div>
+        <div class="box col-md-6 col-lg-3" data-type="Photography">
+          <img src="imgs/work-07.jpg" alt="">
+          <div class="caption">
+            <h4 class="text-white">Awesome work</h4>
+            <p>/Design</p>
+          </div>
+        </div>
+        <div class="box col-md-6 col-lg-3" data-type="Photography">
+          <img src="imgs/work-08.jpg" alt="">
+          <div class="caption">
+            <h4 class="text-white">Awesome work</h4>
+            <p>/Design</p>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-danger">I WANT MORE</button>
+    </section>
+  </div>
+  <!-- end filter  -->
+  <!-- start About -->
+  <section id="about" class="about container">
+    <div class="spec-heading text-center">
+      <img src="imgs/title.png" alt="">
+      <h1 class="fw-normal m-0 mb-2">Some Stuff About Us</h1>
+      <p class="fs-5 fw-Semibold">THE GREAT TEAM</p>
+    </div>
+
+
+    <p class="aboutText fw-normal">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt
+      nibh
+      pulvinar a. Pellentesque in
+      ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
+    </p>
+    <div class="aboutContent row mt-5 mb-5">
+      <div class="RD col-lg-4 fw-normal">
+        <h3>Retina Design</h3>
+        <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget
+          tincidunt nibh
+          pulvinar a.
+
+          Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+          Pellentesque in
+          ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+        <button class="btn btn-danger">ORDER ME ONE</button>
+      </div>
+      <img class="col-lg-8" src="imgs/laptop.png" alt="">
+    </div>
+  </section>
+  <!-- end About -->
+  <!-- start team -->
+  <section class="team">
+    <div class="container">
+      <h1 class="fw-bold">Meet The Team</h1>
+      <p class="fw-normal">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh
+        pulvinar a.
+        Pellentesque
+        in
+        ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada</p>
+
+      <div class="row mt-5">
+        <div class="member col-md-6 col-lg-3">
+          <img src="imgs/team-1.png" alt="">
+          <h3>Luke Skywalker</h3>
+          <q>I don't understand how we got by those troops. I thought we were dead.</q>
+        </div>
+        <div class="member col-md-6 col-lg-3">
+          <img src="imgs/team-2.png" alt="">
+          <h3>Obi-Wan Kenobi</h3>
+          <q>I don't understand how we got by those troops. I thought we were dead.</q>
+        </div>
+        <div class="member col-md-6 col-lg-3">
+          <img src="imgs/team-3.png" alt="">
+          <h3>Princess Leia</h3>
+          <q>I don't understand how we got by those troops. I thought we were dead.</q>
+        </div>
+        <div class="member col-md-6 col-lg-3">
+          <img src="imgs/team-4.png" alt="">
+          <h3>Yoda</h3>
+          <q>I don't understand how we got by those troops. I thought we were dead.</q>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end team -->
+  <!-- start logos -->
+  <section class="logos container mt-5 mb-5">
+    <div class="row">
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="imgs/tech-1.png" alt="">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="imgs/tech-2.png" alt="">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="imgs/tech-3.png" alt="">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="imgs/tech-4.png" alt="">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="imgs/tech-1.png" alt="">
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <img src="imgs/tech-2.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- end logos -->
+  <!-- start ur project now -->
+  <section class="urProject text-center">
+    <h1 class="m-1">Start Your Project Now</h1>
+    <p>Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+    <button class="btn btn-danger mt-5">START PROJECT</button>
+  </section>
+  <!-- end start ur project now -->
+  <!-- start Blog -->
+  <section class="blog">
+    <div class="spec-heading text-center">
+      <img src="imgs/title.png" alt="">
+      <h1 class="fw-normal m-0 mb-2">Read Our Blog</h1>
+      <p class="fs-5 fw-Semibold">NEW STORIES</p>
+    </div>
+    <section class="container">
+      <div class="row">
+        <figure class="card col-md-6 col-lg-4 p-0 mt-1 mb-1 pe-2 ps-1">
+          <img class="mw-100" src="imgs/blog-1.jpg" alt="">
+          <caption>
+            <p>Jan 17 , 2022</p>
+            <h4>Some Awesome Blog Title Here</h4>
+          </caption>
+        </figure>
+        <figure class="card col-md-6 col-lg-4 p-0 mt-1 mb-1 pe-2 ps-1">
+          <img class="mw-100" src="imgs/blog-2.jpg" alt="">
+          <caption>
+            <p>Jan 17 , 2022</p>
+            <h4>Some Awesome Blog Title Here</h4>
+          </caption>
+        </figure>
+        <figure class="card col-md-6 col-lg-4 p-0 mt-1 mb-1 pe-2 ps-1">
+          <img class="mw-100" src="imgs/blog-3.jpg" alt="">
+          <caption>
+            <p>Jan 17 , 2022</p>
+            <h4>Some Awesome Blog Title Here</h4>
+          </caption>
+        </figure>
+      </div>
+      <button class="btn btn-danger d-block ms-auto me-auto mt-4 m-5">MORE STORIES</button>
+    </section>
+  </section>
+  <!-- end Blog -->
+  <!-- start subscribe -->
+  <section id="login" class="subscribe">
+    <div class="container d-flex justify-content-between align-items-center flex-column flex-sm-row">
+      <h4 class="m-0">Subscribe to our Newsletter:</h4>
+      <label for="email">
+        <input type="text" placeholder="Enter email Address">
+      </label>
+      <button class="btn btn-danger">Subscribe</button>
+    </div>
+  </section>
+  <!-- end subscribe -->
+  <!-- start footer -->
+  <footer>
+    <section class="container">
+      <div class="row">
+        <section class="start col-md-8 col-lg-4">
+          <figure>
+            <h3 class=""><img src="imgs/logo.png" alt=""></h3>
+            <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
+              convallis at
+              tellus</p>
+          </figure>
+          <p>Created By <a id="Graph" href="">Graphberry</a> <br> &copy;2022 - <span id="bandi">Bondi Inc</span></p>
+        </section>
+        <section class="links col-md-4 col-lg-2">
+          <ul class="list-unstyled">
+            <h5>Links</h5>
+            <li><a href="">Home</a></li>
+            <li><a href="">Our Services</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Terms and Condition</a></li>
+          </ul>
+        </section>
+        <section class="AboutUs col-md-4 col-lg-2">
+          <ul class="list-unstyled">
+            <h5>About Us</h5>
+            <li><a href="">Sign In</a></li>
+            <li><a href="">Register</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </section>
+        <section id="contact" class="ContactUs col-md-8 col-lg-4">
+          <h5>Contact Us</h5>
+          <p>Get in touch with us via mail phone.We are waiting for your call or message</p>
+          <button class="btn btn-danger w-100 mt-3">graphberry@gmail.com</button>
+          <a href=""><i class="fa-brands fa-facebook fa-lg facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter fa-lg twitter"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin fa-lg linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-youtube fa-lg youtube"></i></a>
+        </section>
+      </div>
+    </section>
+  </footer>
+  <!-- end footer -->
+
+
+
+
+
+  <script src="scripts/bootstrap.bundle.min.js"></script>
+  <!-- <script src="scripts/all.min.js"></script> -->
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
